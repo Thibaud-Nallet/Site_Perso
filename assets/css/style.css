@@ -1,0 +1,373 @@
+/* -------- GENERAL -------- */
+body {
+    font-family: 'Crimson+Text', sans-serif;
+    font-size: 16px;
+}
+
+/* ------ TITRES ------ */
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+    color: #b89d30;
+    text-transform: uppercase;
+}
+
+/* -------- MENU --------*/
+.navbar {
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar li a {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #b89d30 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-style: none;
+}
+
+.icon-bar {
+    background-color: #fff !important;
+}
+
+/* -------- FOOTER -------- */
+footer {
+    margin-top: 60px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.thibaud {
+    padding-top: 25px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-family: 'Crimson+Text', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.titi {
+    text-decoration: none;
+    color: white;
+}
+
+.titi:hover {
+    color: #b89d30;
+    text-decoration: none;
+}
+
+.chevron,
+.chevron:hover {
+    text-align: right;
+    padding-top: 25px;
+    color: white;
+}
+
+.chevron:hover {
+    color: #b89d30;
+}
+
+/* -------- HOME -------- */
+#home {
+    height: 720px;
+    text-align: center;
+    background-image: url("../images/home/code.png");
+    background-position: center;
+}
+
+#profile-picture {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+#home h1 {
+    padding: 170px 0 0 0;
+}
+
+#home h2 {
+    padding: 20px 0 20px 0;
+    text-shadow: 0 1px 0 black, 0 -1px 0 black;
+}
+
+.button1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    transition: all 0.2s ease-in 0s;
+}
+
+.button1:hover {
+    background: white;
+    color: #b89d30;
+    text-decoration: none;
+}
+
+.logoIn {
+    width: 60px;
+    height: 60px;
+    margin: 40px 10px 0 0;
+}
+
+.fa-linkedin {
+    width: 60px;
+    height: 60px;
+    margin: 40px 5px 0 0;
+    color: white;
+    transition: all 0.2s ease-in 0s;
+}
+
+.fa-github-square {
+    width: 60px;
+    height: 60px;
+    margin: 40px 0px 0 0;
+    color: white;
+    transition: all 0.2s ease-in 0s;
+}
+
+.fa-linkedin:hover {
+    color: #b89d30;
+}
+
+.fa-github-square:hover {
+    color: #b89d30;
+}
+
+.mouseHome {
+    width: 60px;
+    height: 60px;
+    margin: 50px 0 0 0;
+}
+
+/* -------- A PROPOS -------- */
+#about h3 {
+    text-align: center;
+    margin: 80px 0;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: #b89d30;
+}
+
+#about h4 {
+    font-family: 'Crimson+Text', sans-serif;
+    font-size: 20px;
+}
+
+#about h4 strong {
+    color: #b89d30;
+    font-weight: bold;
+}
+
+.text {
+    font-family: 'Crimson+Text', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.button2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #b89d30;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+
+    border-radius: 3px;
+    transition: all 0.2s ease-in 0s;
+}
+
+.button2:hover {
+    background: white;
+    color: white;
+    text-decoration: none;
+    background: #b89d30;
+}
+
+/* -------- PROJECT -------- */
+#project {
+    background-image: url("../images/projet_OC/imac-464737_1920.jpg");
+    background-position: top;
+    height: 720px;
+    text-align: center;
+}
+
+#project h1 {
+    font-size: 60px;
+    text-shadow: 0 1px 0 gray, 0 -1px 0 gray;
+    color: white;
+    padding-top: 120px;
+    transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+    -khtml-transform: rotate(1deg);
+}
+
+#project h2 {
+    font-size: 26px;
+    padding-top: 20px;
+    transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+    -khtml-transform: rotate(1deg);
+}
+
+#projet h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 1px 0 black;
+    margin: 50px 0;
+}
+
+#projet h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+#projet em {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.oc {
+    text-align: center;
+    border: solid 1px;
+}
+
+.mouseProject {
+    width: 60px;
+    height: 60px;
+    margin: 340px 0 0 0;
+}
+
+.instruction {
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: -5px;
+}
+
+#projet {
+     background-color: #b89d30;
+    text-align: center;
+}
+
+/*.row {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 0;
+}
+*/
+.centre {
+    float: none;
+    margin: 0 auto;
+}
+
+figure {
+    margin-top: 20px;
+    border: solid 2px rgba(0, 0, 0, 0.5);
+    margin: 20px 0 0 0;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.encours {
+    margin-top: 20px;
+    border: solid 2px rgba(0, 0, 0, 0.5);
+    margin: 20px 0 0 0;
+    height: 350px;
+    font-family: 'Crimson+Text', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-top: 280px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 520px;
+}
+
+.web {
+    width: 100%;
+}
+
+figcaption {
+    font-family: 'Crimson+Text', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-top: 260px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 400px;
+}
+
+.valide {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#bouton {
+    margin: 0 20px;
+    font-family: 'Crimson+Text', sans-serif;
+    font-size: 14px;
+    color: white;
+    border: 1px solid white;
+    width: 130px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    transition: all 0.2s ease-in 0s;
+    padding: 10px 25px;
+    display: inline-block;
+
+}
+
+#bouton:hover {
+    background: white;
+    color: #b89d30;
+    text-decoration: none;
+}
