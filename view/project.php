@@ -73,14 +73,12 @@ ob_start();
                 <h4> Projet 4 </h4>
                 <a id="bouton" href="./assets/docs_PDF/blog.pdf" target="blank"> Enoncé </a>
                 <a id="bouton" class="bouton4" href="http://projet4.thibaud-nallet.fr"> Voir le site </a>
-
-                <div class="encours">
-                    <p> En cours de réalisation <br>Créez un blog pour un écrivain <br> <em>PHP / MySQL</em> </p>
-                </div>
-                <!--<figure class="encours image"> <img class="web" src="../projet/images/horlogo.png" alt=""> 
-                    <figcaption class="desc"> <p> Projet en attente <br> Créez un blog pour un écrivain <br> <em>PHP / MySQL</em> </p></figcaption>
-                    </figure> -->
-
+                <figure class="image4"> <img class="web" src="./assets/images/projet_OC/blog.png" alt="">
+                    <figcaption class="desc4">
+                        <!-- <div class="valide"> <img src="./assets/images/projet_OC/valide.png"></div> -->
+                        <p> Créez un blog pour un écrivain <br> <em> PHP / MySQL </em> </p>
+                    </figcaption>
+                </figure>
             </div>
         </div>
         <hr />
@@ -101,11 +99,13 @@ ob_start();
         </div>
 
     </div>
+    <!--******** FOOTER ********-->
+    <?php
+    include("includes/footer.php");
+    ?>
 </section>
 
-<!--******** FOOTER ********-->
 <?php
 $script = "./assets/js/project.js";
-include("includes/footer.php");
 $content = ob_get_clean();
 require('includes/template.php'); ?>

@@ -13,6 +13,8 @@ $(function () {
     $("figcaption").hide();
 })
 
+/* -------- Animation survol des projets -------- */
+
 $(function () {
     $(".image1").mouseenter(function () {
         $(".desc1").show(function () {
@@ -48,6 +50,16 @@ $(function () {
         $(".desc3").show(function () {
             $(".image3").mouseleave(function () {
                 $(".desc3").hide();
+            });
+        });
+    });
+})
+
+$(function () {
+    $(".image4").mouseenter(function () {
+        $(".desc4").show(function () {
+            $(".image4").mouseleave(function () {
+                $(".desc4").hide();
             });
         });
     });
